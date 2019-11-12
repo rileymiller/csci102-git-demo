@@ -155,3 +155,5 @@ $ git push origin master
 ```
 
 If you navigate to your repository, you will now see `fibonacci.py` in the file list view, if you click on it you will see the code that you just wrote on your personal machine.
+
+WHOO!! You just added your first file to your first git repository. You can now follow these steps whenever you'd like to implement version control on a school or personal project!!! 🎸🤘
