@@ -9,14 +9,14 @@
 - How to push up files to the remote repository (`git push`)
 
 ## Creating a repository on GitHub
-Whenever you're starting a new project whether for school or for personal use, one of the first steps you should take is creating an empty repository on your remote version control system to keep track of your code (Github in our example). Version control is an extremely powerful tool that helps teams create software quickly and keep track of their changes. For you, you could start using it right now to keep track of your school projects to start practicing `git` fundamentals or even more importantly, to keep a backup of your code if anything were to ever happen to your computer.
+Whenever you're starting a new project whether for school or for personal use, one of the first steps you should take is creating an empty repository on your remote version control system to keep track of your code (Github in our example). Version control is an extremely powerful tool that helps developers create software quickly and keep track of their changes. For you, you could start using it right now to keep track of your school projects to start practicing `git` fundamentals or even more importantly, to keep a backup of your code if anything were to ever happen to your computer.
 
 To create the remote repository:
 - Navigate to github.com and sign into your GitHub account.
 - Next to your profile in the top-right corner of the screen click the plus sign and select 'New repository'.
 [insert picture]
 - Type `csci102-wk11-git` in the 'Repository name' box.
-- Click the 'Initialize this repository with a README' radio box. [insert picture and instruction on creating a repo]
+- Click the 'Initialize this repository with a README' radio button. [insert picture and instruction on creating a repo]
 - Click 'Create repository'
 
 ## Cloning repository
@@ -34,7 +34,7 @@ as soon as we open our terminal.
 [insert pictures for cloning repository]
 
 ## Create a README
-After navigating into your repository if you list out all of the files in the current working directory using
+After navigating into your repository, if you list out all of the files in the current working directory using
 ```
 $ ls
 ``` 
@@ -134,7 +134,7 @@ if __name__ == "__main__":
     main()
 
 ```
-Then in Idle, safe `fibonacci.py` and run file. Your output should be: 
+Then in Idle, save `fibonacci.py` and run file. Your output should be: 
 ```
 OUTPUT [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ```
