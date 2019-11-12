@@ -117,7 +117,7 @@ Now the last step in the process is to push up our local commit to our remote re
 ```
 $ git push origin master
 ```
-since we are operating on the `master` branch.
+since we are operating on the `master` branch. **Note: you will be prompted for your GitHub username and password here**
 
 Now if you navigate to the remote repository you should now see your changes reflected on your repository webpage. 
 
