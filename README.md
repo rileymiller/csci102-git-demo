@@ -131,3 +131,27 @@ Then in Idle, safe `fibonacci.py` and run file. Your output should be:
 OUTPUT [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ```
 if correct.
+
+After verifying that you have the correct output, commit your changes.
+
+```
+$ git status
+```
+Should see `fibonacci.py` in red.
+```
+$ git add fibonacci.py && git status
+```
+Should now see `fibonacci.py` in green.
+
+Commit the file.
+
+```
+$ git commit -m 'create file that calculates the first 10 Fibonacci numbers'
+```
+
+Push the file to the remote repository.
+```
+$ git push origin master
+```
+
+If you navigate to your repository, you will now see `fibonacci.py` in the file list view, if you click on it you will see the code that you just wrote on your personal machine.
