@@ -38,7 +38,15 @@ After navigating into your repository if you list out all of the files in the cu
 ```
 $ ls
 ``` 
-you will see that the repository contains a README file (which we initialized while creating our repository). README files can be thought of as the repository summary or like an instruction manual. In a text editor open the README file (using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, Idle, etc.). Inside the file, copy and paste the snippet below and save the file.
+you will see that the repository contains a README file (which we initialized while creating our repository). README files can be thought of as the repository summary or like an instruction manual. 
+
+If you're not sure where your repository is located in your file system, run:
+```
+$ pwd
+```
+which will print the file path of the current working directory. This will allow you to find your repository with the File Explorer (Windows) or Finder (Mac).
+
+In a text editor open the README file using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, Idle, etc. Inside the file, copy and paste the snippet below and save the file.
 
 ```
 # Week 11 Git Workshop
@@ -59,18 +67,18 @@ To check the status of our files in our repository and to see which ones have ch
 $ git status
 ```
 
-This should display README in red lettering. [insert picture]
+This should display `README.md` in red lettering. [insert picture]
 
 To stage the file for commit run
 ```
-$ git add README
+$ git add README.md
 ```
 
 To make sure the correct file was added run
 ```
 $ git status
 ```
-again. README should now appear in green lettering [insert picture]
+`README.md` should now appear in green lettering [insert picture]
 
 A commit is like a snapshot of our codebase at a specific moment in time. You can think of it as if you're clicking the save button on your repository. To commit these files, it's best practice to type a message explaining what we're doing as apart of the work for the commit. Run:
 
@@ -97,7 +105,7 @@ since we are operating on the master branch.
 
 Now if you navigate to the remote repository you should now see your changes reflected on your repository webpage. 
 
-(Note: GitHub automatically displays the README at the root of the repository.)
+(Note: GitHub automatically displays the `README.md` at the root of the repository.)
 
 Congrats, you just pushed up your first commit! 🚀
 
@@ -146,7 +154,7 @@ Should now see `fibonacci.py` in green.
 Commit the file.
 
 ```
-$ git commit -m 'create file that calculates the first 10 Fibonacci numbers'
+$ git commit -m 'created file that calculates the first 10 Fibonacci numbers'
 ```
 
 Push the file to the remote repository.
