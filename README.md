@@ -25,12 +25,20 @@ To retrieve the remote repository to our local machine we have to clone the remo
 - Make sure the popup modal shows 'Clone with HTTPS'.
 - Copy the generated link from input box in the 'Clone with HTTPS' modal.
 - Open your terminal (Git Bash on Windows, terminal on Mac or Linux)
-- Navigate to the location you'd like to clone the repository. For our tutorial we'll keep it simple and work from the root directory and just paste in `git clone <copied url for HTTPS GitHub repository here>` as soon as we open our terminal.
+- Navigate to the location you'd like to clone the repository. For our tutorial we'll keep it simple and work from the root directory and just paste in 
+``` 
+$ git clone <copied url for HTTPS GitHub repository here>
+``` 
+as soon as we open our terminal.
 - Navigate into the cloned repository by typing `cd csci102-wk11-git/` into the terminal.
 [insert pictures for cloning repository]
 
 ## Create a README
-After navigating into your repository if you list out all of the files in the current working directory using `ls` you will see that the repository contains a README file (which we initialized while creating our repository). README files can be thought of as the repository summary or like an instruction manual. In a text editor open the README file (using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, etc.). Inside the file, copy and paste the snippet below and save the file.
+After navigating into your repository if you list out all of the files in the current working directory using
+```
+$ ls
+``` 
+you will see that the repository contains a README file (which we initialized while creating our repository). README files can be thought of as the repository summary or like an instruction manual. In a text editor open the README file (using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, etc.). Inside the file, copy and paste the snippet below and save the file.
 
 ```
 # Week 11 Git Workshop
@@ -41,3 +49,35 @@ This is a beginner level version control workshop to help learn basic git comman
 ```
 
 Fill in the fields that are specific to you (name, section).
+
+After saving this file we are going to create our first commit.
+
+Navigate back to your terminal and make sure you're still in your repository (should display `csci102-wk11-git` next to the cursor, if not raise your hand to get help from a TA). 
+
+To check the status of our files in our repository and to see which ones have changed since the last commit run:
+```
+$ git status
+```
+
+This should display README in red lettering. [insert picture]
+
+To stage the file for commit run
+```
+$ git add README
+```
+
+To make sure the correct file was added run
+```
+$ git status
+```
+again. README should now appear in green lettering [insert picture]
+
+A commit is like a snapshot of our codebase at a specific moment in time. You can think of it as if you're clicking the save button on your repository. To commit these files, it's best practice to type a message explaining what we're doing as apart of the work for the commit. Run:
+
+```
+$ git commit -m "updated README"
+```
+in the terminal.
+
+## Create a file
+Now we are going to create a file called 
