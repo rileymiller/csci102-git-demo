@@ -134,6 +134,8 @@ if __name__ == "__main__":
     main()
 
 ```
+**Add the code to find the first 10 Fibonacci numbers**
+
 Then in Idle, save `fibonacci.py` and run file. Your output should be: 
 ```
 OUTPUT [1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
