@@ -123,7 +123,10 @@ def fib():
 
     for i in range(1,11):
 
-        # implement Fibonacci sequence to calculate the first 10 Fibonacci numbers, note Fn = Fn-1 + Fn-2
+        ''' 
+        implement Fibonacci sequence to calculate the 
+        first 10 Fibonacci numbers, note Fn = Fn-1 + Fn-2
+        '''
 
     return fibs
 
