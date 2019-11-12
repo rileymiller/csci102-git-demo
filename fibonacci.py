@@ -12,7 +12,7 @@ def fib():
     return fibs
 
 def main():
-    print(fib())
+    print('OUTPUT',fib())
 
 if __name__ == "__main__":
     main()
