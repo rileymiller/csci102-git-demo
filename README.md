@@ -14,9 +14,14 @@ Whenever you're starting a new project whether for school or for personal use, o
 To create the remote repository:
 - Navigate to github.com and sign into your GitHub account.
 - Next to your profile in the top-right corner of the screen click the plus sign and select 'New repository'.
+
 ![New Repository Popup](1.png)
+
 - Type `csci102-wk11-git` in the 'Repository name' box.
-- Click the 'Initialize this repository with a README' radio button. ![Create New Repository Page](2.jpg)
+- Click the 'Initialize this repository with a README' radio button.
+
+ ![Create New Repository Page](2.jpg)
+
 - Click 'Create repository'
 
 ## Cloning repository
@@ -24,7 +29,9 @@ To retrieve the remote repository to our local machine we have to clone the remo
 - Click the green 'Clone or download' button.
 - Make sure the popup modal shows 'Clone with HTTPS'.
 - Copy the generated link from input box in the 'Clone with HTTPS' modal.
+
 ![Clone Repository](3.jpg)
+
 - Open your terminal (Git Bash on Windows, terminal on Mac or Linux)
 - Navigate to the location you'd like to clone the repository. For our tutorial we'll keep it simple and work from the root directory and just paste in 
 ``` 
@@ -32,6 +39,7 @@ $ git clone <copied url for HTTPS GitHub repository here>
 ``` 
 as soon as we open our terminal.
 - Navigate into the cloned repository by typing `cd csci102-wk11-git/` into the terminal.
+
 ![Git Clone and cd](4.png)
 
 ## Create a README
@@ -72,6 +80,7 @@ $ git status
 ```
 
 This should display `README.md` in red lettering.
+
 ![Git Status Not Staged](6.png)
 
 To stage the file for commit run
@@ -84,6 +93,7 @@ To make sure the correct file was added run
 $ git status
 ```
 `README.md` should now appear in green lettering 
+
 ![Git Status Staged](7.png)
 
 A commit is like a snapshot of our codebase at a specific moment in time. You can think of it as if you're clicking the save button on your repository. To commit these files, it's best practice to type a message explaining what we're doing as apart of the work for the commit. Run:
