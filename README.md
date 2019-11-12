@@ -170,3 +170,16 @@ $ git push origin master
 If you navigate to your repository, you will now see `fibonacci.py` in the file list view, if you click on it you will see the code that you just wrote on your personal machine.
 
 WHOO!! You just added your first file to your first git repository. You can now follow these steps whenever you'd like to implement version control on a school or personal project!!! 🎸🤘
+
+## Submission
+On Canvas submit a link to your repository as proof of successful completion of the in-class assignment.
+
+## Helpful Links and Additional Resources
+[Git Command Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+
+[Command Line Cheat Sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+
+[Install Git on Windows](https://git-scm.com/download/win)
+
+[Install Git on Mac](https://www.atlassian.com/git/tutorials/install-git#:~:targetText=Install%20Git%20on%20Windows,-Git%20for%20Windows&targetText=Download%20the%20latest%20Git%20for%20Windows%20installer.,pretty%20sensible%20for%20most%20users.)
+
