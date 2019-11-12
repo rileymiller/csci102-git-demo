@@ -14,9 +14,9 @@ Whenever you're starting a new project whether for school or for personal use, o
 To create the remote repository:
 - Navigate to github.com and sign into your GitHub account.
 - Next to your profile in the top-right corner of the screen click the plus sign and select 'New repository'.
-[insert picture]
+![New Repository Popup](1.png)
 - Type `csci102-wk11-git` in the 'Repository name' box.
-- Click the 'Initialize this repository with a README' radio button. [insert picture and instruction on creating a repo]
+- Click the 'Initialize this repository with a README' radio button. ![Create New Repository Page](2.jpg)
 - Click 'Create repository'
 
 ## Cloning repository
@@ -24,6 +24,7 @@ To retrieve the remote repository to our local machine we have to clone the remo
 - Click the green 'Clone or download' button.
 - Make sure the popup modal shows 'Clone with HTTPS'.
 - Copy the generated link from input box in the 'Clone with HTTPS' modal.
+![Clone Repository](3.jpg)
 - Open your terminal (Git Bash on Windows, terminal on Mac or Linux)
 - Navigate to the location you'd like to clone the repository. For our tutorial we'll keep it simple and work from the root directory and just paste in 
 ``` 
@@ -31,7 +32,7 @@ $ git clone <copied url for HTTPS GitHub repository here>
 ``` 
 as soon as we open our terminal.
 - Navigate into the cloned repository by typing `cd csci102-wk11-git/` into the terminal.
-[insert pictures for cloning repository]
+![Git Clone and cd](4.png)
 
 ## Create a README
 After navigating into your repository, if you list out all of the files in the current working directory using
@@ -44,6 +45,9 @@ If you're not sure where your repository is located in your file system, run:
 ```
 $ pwd
 ```
+
+![List Files/Print Working Directory](5.png)
+
 which will print the file path of the current working directory. This will allow you to find your repository with the File Explorer (Windows) or Finder (Mac).
 
 In a text editor open the README file using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, Idle, etc. Inside the file, copy and paste the snippet below and save the file.
@@ -67,7 +71,8 @@ To check the status of our files in our repository and to see which ones have ch
 $ git status
 ```
 
-This should display `README.md` in red lettering. [insert picture]
+This should display `README.md` in red lettering.
+![Git Status Not Staged](6.png)
 
 To stage the file for commit run
 ```
@@ -78,7 +83,8 @@ To make sure the correct file was added run
 ```
 $ git status
 ```
-`README.md` should now appear in green lettering [insert picture]
+`README.md` should now appear in green lettering 
+![Git Status Staged](7.png)
 
 A commit is like a snapshot of our codebase at a specific moment in time. You can think of it as if you're clicking the save button on your repository. To commit these files, it's best practice to type a message explaining what we're doing as apart of the work for the commit. Run:
 
@@ -169,7 +175,7 @@ $ git push origin master
 
 If you navigate to your repository, you will now see `fibonacci.py` in the file list view, if you click on it you will see the code that you just wrote on your personal machine.
 
-WHOO!! You just added your first file to your first git repository. You can now follow these steps whenever you'd like to implement version control on a school or personal project!!! 🎸🤘
+WHOO!! You just added your first file to your first git repository. You can now follow these steps whenever you'd like to implement version control on a school or personal project. Let's get rockin'!! 🎸🤘
 
 ## Submission
 On Canvas submit a link to your repository as proof of successful completion of the in-class assignment.
