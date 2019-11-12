@@ -190,6 +190,9 @@ WHOO!! You just added your first file to your first git repository. You can now 
 ## Submission
 On Canvas submit a link to your repository as proof of successful completion of the in-class assignment.
 
+## About
+This was created for the Week 11 CSCI102 in-class Git Workshop to teach `git` fundamentals at Colorado School of Mines.
+
 ## Helpful Links and Additional Resources
 [Git Command Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 
