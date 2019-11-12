@@ -38,7 +38,7 @@ After navigating into your repository if you list out all of the files in the cu
 ```
 $ ls
 ``` 
-you will see that the repository contains a README file (which we initialized while creating our repository). README files can be thought of as the repository summary or like an instruction manual. In a text editor open the README file (using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, etc.). Inside the file, copy and paste the snippet below and save the file.
+you will see that the repository contains a README file (which we initialized while creating our repository). README files can be thought of as the repository summary or like an instruction manual. In a text editor open the README file (using the File Explorer on Windows and Finder on Mac, navigate to the README file located inside `csci102-wk11-git/` and open it using Notepad, Idle, etc.). Inside the file, copy and paste the snippet below and save the file.
 
 ```
 # Week 11 Git Workshop
@@ -102,4 +102,27 @@ Now if you navigate to the remote repository you should now see your changes ref
 Congrats, you just pushed up your first commit! 🚀
 
 ## Create a file
-Now we are going to create a file called 
+Now we are going to create a file called `fibonnacci.py` by using the following command in your terminal:
+```
+$ touch fibonacci.py
+```
+now using either the File Explorer (Windows) or Finder (Mac), open `fibonacci.py` in Idle and paste in the following code snippet.
+```
+# fibonacci.py
+
+def fib():
+    fibs = [1, 2]
+
+    for i in range(1,11):
+
+        # implement Fibonacci sequence to calculate the first 10 Fibonacci numbers, note Fn = Fn-1 + Fn-2
+
+    print(fibs)
+
+def main():
+    fib()
+
+if __name__ = "__main__":
+    main()
+
+    
