@@ -137,7 +137,7 @@ now using either the File Explorer (Windows) or Finder (Mac), open `fibonacci.py
 def fib():
     fibs = [1, 2]
 
-    for i in range(1,11):
+    for i in range(1,9):
 
         ''' 
         implement Fibonacci sequence to calculate the 
