@@ -1,4 +1,4 @@
-# Git Workshop Week 1
+# Git Workshop Week 1 🚀
 `git` is an extremely powerful tool that is used as a form of version control during the software development lifecycle, in laymen terms--it's how software is created in the real world. During week one of the tutorial we will learn all of the basic commands of `git` that you will need in order to keep track of your code for your school projects. Specifically, in this tutorial we will be covering: 
 - How to create a repository on GitHub
 - How to clone a remote repository to your computer (`git clone`)
@@ -78,6 +78,28 @@ A commit is like a snapshot of our codebase at a specific moment in time. You ca
 $ git commit -m "updated README"
 ```
 in the terminal.
+
+Now if you run `git status` you will see a message similar to:
+```
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+```
+showing that there aren't any files waiting to be committed.
+
+Now the last step in the process is to push up our local commit to our remote repository. To do this run:
+```
+$ git push origin master
+```
+since we are operating on the master branch.
+
+Now if you navigate to the remote repository you should now see your changes reflected on your repository webpage. 
+
+(Note: GitHub automatically displays the README at the root of the repository.)
+
+Congrats, you just pushed up your first commit! 🚀
 
 ## Create a file
 Now we are going to create a file called 
