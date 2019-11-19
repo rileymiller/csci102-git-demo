@@ -215,15 +215,18 @@ This week we will be working on branching within git. Branches are a way to deve
 3. Create a branch for developing a Fibonacci program (use the starter code from Week 1)
  - git checkout -b feat/fib
 4. Create a program in your root directory called fib.py
+- Create with File Explorer/Finder or just run `touch fib.py`. MAKE SURE YOU OPEN FILE WITH IDLE PLZZZZ
 
-5. Implement a program that prints out the first 100 Fibonacci numbers. 
+5. Implement a program that prints out the first 100 Fibonacci numbers.
+- Again, PLEASE OPEN THIS FILE WITH IDLE PLZZ, or it will give you errors without additional configuration.
 6. Add, commit, and push up your branch to your GitHub repository. 
 - git add .
 - git commit -m “\<msg\>”
 - git push origin feat/fib
 7. Create a Pull Request
 - Navigate to Pull Request tab and select your branch.
-- Click Create Pull Request 
+- Click Create Pull Request
+    - Make sure that you add a description for what the Pull Request is introducing.
 
 8. Merge Pull Request
 
