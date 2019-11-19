@@ -202,3 +202,42 @@ This was created for the Week 11 in-class Git Workshop to teach `git` fundamenta
 
 [Install Git on Mac](https://www.atlassian.com/git/tutorials/install-git#:~:targetText=Install%20Git%20on%20Windows,-Git%20for%20Windows&targetText=Download%20the%20latest%20Git%20for%20Windows%20installer.,pretty%20sensible%20for%20most%20users.)
 
+# Git Workshop Week 2 🍗
+
+### Git Week 2
+
+This week we will be working on branching within git. Branches are a way to develop features apart from the master branch. 
+
+1. Create a new repository
+
+2. Clone the repository
+
+3. Create a branch for developing a Fibonacci program (use the starter code from Week 1)
+ - git checkout -b feat/fib
+4. Create a program in your root directory called fib.py
+
+5. Implement a program that prints out the first 100 Fibonacci numbers. 
+6. Add, commit, and push up your branch to your GitHub repository. 
+- git add .
+- git commit -m “<msg>”
+- git push origin feat/fib
+7. Create a Pull Request
+- Navigate to Pull Request tab and select your branch.
+- Click Create Pull Request 
+
+8. Merge Pull Request
+
+Now we’re going to create another feature.
+
+9. Switch back to the master branch
+- git checkout master
+
+10. Pull in the remote changes
+- git pull origin master
+
+11. Create a new feature branch to print out the first 100 prime numbers
+- git checkout -b feat/prime
+
+12. Create a python file called prime.py and make a program that prints out the first 100 prime numbers. 
+
+13. Repeat steps 6-9 on feat/prime. 
